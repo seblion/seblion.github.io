@@ -1,39 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio</title>
 </head>
+
 <body>
-    <main>
     <header>
         <!-- Mi portafolio -->
-         <h1>Mi Portafolio</h1>
+        <h1>Mi Portafolio</h1>
+        <p>Proyectos personales y académicos — resumen y enlaces.</p>
     </header>
+
     <nav>
-        <!-- Menu de navegacion-->  
-         <a href="index.html">Mi Perfil</a> 
+        <!-- Menú de navegación -->
+        <a href="index.html">Mi Perfil</a>
     </nav>
-    <section> 
-        <!-- Proyectos-->
-         <h2>Proyectos</h2>
-        <article>
-            <!-- Proyecto 1-->
-            <h3>Proyecto 1</h3>
-        </article>
-        <article>
-            <!-- Proyecto 2-->
-            <h3>Proyecto 2</h3>
-        </article>
-        <article>
-            <!-- Proyecto 3-->
-            <h3>Proyecto 3</h3>
-        </article>
-        <article>
-            <!-- Proyecto 4-->
-            <h3>Proyecto 4</h3>
-        </article>
+
+    <main>
+
+
+        <section class="projects">
+            <h2>Proyectos</h2>
+
+            <article id="bad-ice-cream">
+                <!-- Proyecto: Bad Ice Cream -->
+                <h3>Recreación del juego Bad Ice Cream</h3>
+                <div class="meta"><strong>Lenguaje:</strong> Java</div>
+                <div class="desc">
+                    Recreación completa del clásico juego <em>Bad Ice Cream</em>, desarrollada desde cero con Java.
+                    Incluye lógica de colisiones, movimiento de personajes, generación de niveles y gestión de enemigos.
+                </div>
+                <div class="links">
+                    <a href="https://github.com/seblion/BadIce-Cream_Recreacion" target="_blank"
+                        rel="noopener">Repositorio — BadIce-Cream_Recreacion</a>
+                </div>
+            </article>
+
+            <hr class="separator" />
+
+            <article id="intercambio-bienes">
+                <!-- Proyecto: Aplicación de intercambio -->
+                <h3>Aplicación de escritorio para intercambio de bienes y servicios</h3>
+                <div class="meta"><strong>Lenguaje:</strong> Java</div>
+                <div class="desc">
+                    Desarrollo de una aplicación que permite a los usuarios ofrecer, buscar e intercambiar productos o
+                    servicios
+                    de forma local. Implementa una interfaz gráfica intuitiva, persistencia de datos y gestión de
+                    usuarios.
+                </div>
+                <div class="links">
+                    <a href="https://github.com/seblion/Proyecto-Intercambio" target="_blank" rel="noopener">Repositorio
+                        — Proyecto-Intercambio</a>
+                </div>
+            </article>
+
+            <hr class="separator" />
+
+            <article id="cinemax">
+                <!-- Proyecto: CineMax -->
+                <h3>Sistema de gestión de cine — CineMax</h3>
+                <div class="meta"><strong>Lenguaje:</strong> Java | <strong>Framework:</strong> Maven</div>
+                <div class="desc">
+                    Proyecto grupal enfocado en la creación de una aplicación de escritorio para la administración de un
+                    cine.
+                    Incluye módulos para gestión de funciones, ventas de boletos, usuarios y generación de reportes.
+                </div>
+                <div class="links">
+                    <a href="https://github.com/CineMax-Diseno-De-Software-GR3SW/CineMax" target="_blank"
+                        rel="noopener">Repositorio — CineMax</a>
+                </div>
+            </article>
+
+            <hr class="separator" />
+
+            <article id="simulacion-grafica">
+                <!-- Proyecto: Simulación de entornos virtuales -->
+                <h3>Simulación de entornos virtuales — Proyecto de Computación Gráfica</h3>
+                <div class="meta"><strong>Lenguaje:</strong> C++ | <strong>Librería:</strong> OpenGL</div>
+                <div class="desc">
+                    Proyecto de gráficos por computadora que recrea escenarios inspirados en libros, utilizando técnicas
+                    de iluminación,
+                    texturizado, movimiento de cámara y shaders personalizados.
+                </div>
+            </article>
+
+            <hr class="separator" />
+
+            <article id="asistente-blackjack">
+                <!-- Proyecto: Asistente web Blackjack -->
+                <h3>Asistente web para juegos de Blackjack en línea (educativo)</h3>
+                <div class="meta"><strong>Lenguaje:</strong> Java | <strong>Tipo:</strong> Aplicación web</div>
+                <div class="desc">
+                    Desarrollo de una aplicación web educativa que integra un motor de procesamiento de imágenes en
+                    tiempo real
+                    y un algoritmo de decisión para analizar partidas de Blackjack y recomendar la mejor jugada posible.
+                </div>
+            </article>
+
+        </section>
+
     </main>
+
 </body>
+
 </html>
